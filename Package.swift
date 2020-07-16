@@ -15,14 +15,14 @@ let package = Package(
     .library(
       name: "abseil",
       targets: [
-        "absl",
+        "abseil",
       ]
     )
   ],
 
   targets: [
     .target(
-      name: "absl",
+      name: "abseil",
       path: ".",
       sources: [
         // algorithm
@@ -117,8 +117,6 @@ let package = Package(
         "absl/container/internal/raw_hash_map.h",
         "absl/container/internal/raw_hash_set.cc",
         "absl/container/internal/raw_hash_set.h",
-
-
 
         // memory
         "absl/memory/memory.h",
