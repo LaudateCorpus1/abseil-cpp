@@ -234,6 +234,10 @@ let package = Package(
         "absl/random/internal/randen_benchmarks.cc",
 
         "absl/synchronization/internal/mutex_nonprod.cc",
+
+        // main functions
+        "absl/hash/internal/print_hash_of.cc",
+        "absl/random/internal/gaussian_distribution_gentables.cc",
       ],
       sources: [
         "absl/"
