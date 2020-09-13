@@ -5,12 +5,6 @@ import PackageDescription
 
 let package = Package(
   name: "abseil",
-    platforms: [
-        .macOS(.v10_10),
-        .iOS(.v8),
-        .tvOS(.v9)
-    ],
-
   products: [
     .library(
       name: "abseil",
